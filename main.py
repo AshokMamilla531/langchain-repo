@@ -1,3 +1,6 @@
+def main():
+    print("Hello from langchain-repo!")
 
 
-print("Hello, World!")
+if __name__ == "__main__":
+    main()
