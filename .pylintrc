@@ -1,0 +1,15 @@
+[MASTER]
+# Use the virtual environment's Python interpreter
+init-hook='import sys; import os; venv_path = os.path.join(os.getcwd(), ".venv", "Lib", "site-packages"); sys.path.insert(0, venv_path)'
+
+[MESSAGES CONTROL]
+# Disable import-error warnings for packages installed in virtual environment
+disable=import-error
+
+[FORMAT]
+# Set the maximum line length
+max-line-length=88
+
+[BASIC]
+# Good variable names regex
+good-names=i,j,k,ex,Run,_,id,db
